@@ -1,5 +1,9 @@
 # japancode
 
+[![PyPI](https://img.shields.io/pypi/v/japancode.svg)](https://pypi.org/project/japancode/)
+<!-- [![build](https://github.com/ozekik/japancode/actions/workflows/ci.yaml/badge.svg)](https://github.com/ozekik/japancode/actions/workflows/ci.yaml) -->
+<!-- [![Coverage Status](https://codecov.io/gh/ozekik/japancode/branch/master/graph/badge.svg)](https://codecov.io/gh/ozekik/japancode) -->
+
 japancode は、日本の都道府県・市区町村名や各種番号・記号（全国地方公共団体コードなど）を取得・変換するための Python ライブラリです。
 
 ## 現在の対応データ
