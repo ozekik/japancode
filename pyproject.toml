@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "japancode"
+version = "0.1.0"
+description = "Python library for converting Japanese region names and codes."
+license = "MIT"
+homepage = "https://github.com/ozekik/japancode"
+repository = "https://github.com/ozekik/japancode"
+authors = ["Kentaro Ozeki <kentaro.ozeki+dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+coverage = { extras = ["toml"], version = "^7.5.4" }
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
